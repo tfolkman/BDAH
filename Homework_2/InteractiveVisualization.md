@@ -1,0 +1,16 @@
+# Python
+
+1. Bokeh: http://bokeh.pydata.org/en/latest/
+2. Plotly (multiple languages): https://plot.ly/
+
+# R
+
+1. Shiny: http://shiny.rstudio.com/
+
+# Javascript
+
+1. D3.js: http://d3js.org/
+2. Highcharts.js: http://www.highcharts.com/
+3. NVD3.js: http://nvd3.org/
+4. C3.js: http://c3js.org/
+5. Awesome book: http://chimera.labs.oreilly.com/books/1230000000345/index.html
