@@ -6,22 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>NVD3 Starter Page</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nv.d3.css">
+    <link rel="stylesheet" href="css/mystyles.css">
 </head>
 
 <body>
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-              <h2>Graph 1</h2>
+                <h2 class="chart-title">Graph 1</h2>
+                <div id="linechart" class="chart-size">
+                    <svg>
+                    </svg>
+                </div>
             </div>
             <div class="col-sm-4">
-              <h2>Graph 2</h2>
+                <h2 class="chart-title">Graph 2</h2>
+                <div id="scatterchart" class="chart-size">
+                    <svg>
+                    </svg>
+                </div>
             </div>
             <div class="col-sm-4">
-              <h2>Graph 3</h2>
+                <h2 class="chart-title">Graph 3</h2>
             </div>
         </div>
     </div>
@@ -29,6 +39,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- D3 -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js' charset="utf-8"></script>
+    <!-- NVD3 -->
+    <script src="js/nv.d3.min.js"></script>
+    <!-- charts -->
+    <script src="js/linechart.js"></script>
+    <script src='js/scatterplot.js'></script>
 </body>
 
 </html>
